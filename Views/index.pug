@@ -1,0 +1,15 @@
+html
+head
+ link(rel="stylesheet", href="/css/styles.css")
+body
+h1=showdata.title
+  h2 Developed By
+  for dby in showdata.developedBy
+    li=dby
+  h2 Starring
+  for sta in showdata.starring
+    li=sta
+  h2 Seasons
+  for season in showdata.seasons
+    li
+      a(href=`/episodes/${season.number}`)='season'+season.number

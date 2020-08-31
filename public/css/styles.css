@@ -1,0 +1,37 @@
+h1{
+color:#0a0a0aec;
+}
+#h2episode{
+text-align: center;
+}
+h2,h3 {
+  margin-left: 5%;
+} 
+li {
+  margin-left: 10%;
+} 
+#tepisode{
+   margin-left:auto; 
+  margin-right:auto;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 2px solid#0a0a0aec;
+  width: 70%;
+}
+
+#tepisode td, #tepisode th {
+  border: 2px solid #0a0a0aec;
+  padding: 8px;
+}
+
+#tepisode tr:nth-child(even){background-color: #f2f2f2;}
+
+#tepisode tr:hover {background-color: #ddd;}
+
+#tepisode th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #630ac9ec;
+  color: white;
+}
