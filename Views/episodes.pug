@@ -1,0 +1,21 @@
+html
+head
+ link(rel="stylesheet", href="/css/styles.css")
+ body
+h1(id="h1episode")=title
+ h2(id='h2episode')='Season'+season.number
+ h3(id='h3episode')
+ table(id='tepisode')
+   tbody
+     tr
+      th No.
+      th Title
+      th Director
+     each episode in season.episodes
+       tr
+         td=episode.number
+         td=episode.title
+         td=episode.director
+       tr
+         td(colspan='3')
+          =episode.synopsis
